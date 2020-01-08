@@ -5,7 +5,7 @@ let superman1:string = "Clark";
 let existe1:boolean = false;
 
 // Tuplas
-let parejaHeroes1:any = [batman1,superman1];
+let parejaHeroes1:[string,string] = [batman1,superman1];
 let villano1 = ["Lex Lutor",5,true];
 
 // Arreglos
