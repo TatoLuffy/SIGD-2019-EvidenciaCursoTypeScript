@@ -1,32 +1,32 @@
 // Tipos
-let batman1 = "Bruce";
-let superman1 = "Clark";
+let batman1:string = "Bruce";
+let superman1:string = "Clark";
 
-let existe1 = false;
+let existe1:boolean = false;
 
 // Tuplas
-let parejaHeroes1 = [batman1,superman1];
+let parejaHeroes1:any = [batman1,superman1];
 let villano1 = ["Lex Lutor",5,true];
 
 // Arreglos
-let aliados1 = ["Mujer Maravilla","Acuaman","San", "Flash"];
+let aliados1:string[] = ["Mujer Maravilla","Acuaman","San", "Flash"];
 
 //Enumeraciones
-let fuerzaFlash1 = 5;
-let fuerzaSuperman1 = 100;
-let fuerzaBatman1 = 1;
-let fuerzaAcuaman1 = 0;
+let fuerzaFlash1:number = 5;
+let fuerzaSuperman1:number = 100;
+let fuerzaBatman1:number = 1;
+let fuerzaAcuaman1:number = 0;
 
 // Retorno de funciones
-function actilet_batiseñal(){
+function actilet_batiseñal():string{
   return "activada";
 }
 
-function pedir_ayuda(){
+function pedir_ayuda():void{
   console.log("Auxilio!!!");
 }
 
 // Aserciones de Tipo
-let poder1 = "100";
-let largoDelPoder1 = poder.length;
+let poder1:string = "100";
+let largoDelPoder1:number = poder.length;
 console.log( largoDelPoder1 );
