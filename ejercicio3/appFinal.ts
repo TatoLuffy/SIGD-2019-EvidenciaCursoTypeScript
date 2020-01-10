@@ -5,7 +5,6 @@ type Coche = {
   pasajeros:number
 };
 
-
 // Objetos
 let batimovil:Coche = {
   carroceria: "Negra",
@@ -14,7 +13,8 @@ let batimovil:Coche = {
   pasajeros:4
 };
 
-let bumblebee:Coche = {
+let bumblebee: {carroceria:string,modelo:string,antibalas:boolean,pasajeros:number, disparar?:()=>void} = 
+{
   carroceria: "Amarillo con negro",
   modelo: "4x2",
   antibalas: true,
@@ -29,7 +29,6 @@ type Villanos = {
   edad:number,
   mutante:boolean
 };
-
 
 // Villanos debe de ser un arreglo de objetos personalizados
 let villanos:Villanos[] = [{
@@ -48,6 +47,17 @@ let villanos:Villanos[] = [{
 
 // Multiples tipos
 // cree dos tipos, uno para charles y otro para apocalipsis
+
+type CharlesType = {
+  poder:string,
+  estatura:number
+};
+
+type ApocalipsisType = {
+  lider:boolean,
+  miembros: string[]
+};
+
 let charles = {
   poder:"psiquico",
   estatura: 1.78
@@ -59,7 +69,7 @@ let apocalipsis = {
 }
 
 // Mystique, debe poder ser cualquiera de esos dos mutantes (charles o apocalipsis)
-let mystique;
+let mystique: CharlesType | ApocalipsisType;
 
 mystique = charles;
 mystique = apocalipsis;
