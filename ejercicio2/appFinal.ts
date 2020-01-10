@@ -1,22 +1,22 @@
 // Funciones Básicas
-function sumar( a, b ){
+function sumar( a:number, b:number ){
   return a + b;
 }
 
-var contar = function( heroes ){
+var contar = function( heroes:string[] ){
   return heroes.length;
 }
-var superHeroes = ["Flash", "Arrow", "Superman", "Linterna Verde"];
+var superHeroes:string[] = ["Flash", "Arrow", "Superman", "Linterna Verde"];
 contar(superHeroes);
 
 //Parametros por defecto
-function llamarBatman( llamar ){
+function llamarBatman( llamar:boolean ){
   if( llamar ){
     console.log("Batiseñal activada");
   }
 }
 
-llamarBatman();
+llamarBatman(true);
 
 // Rest?
 function unirheroes( ...personas:string[] ){
