@@ -29,4 +29,4 @@ function noHaceNada( numero, texto, booleano, arreglo ){
 }
 
 // Crear el tipo de funcion que acepte la funcion "noHaceNada"
-var noHaceNadaTampoco;
+var noHaceNadaTampoco = noHaceNada(10,"Esto es un texto",true,["patatas","zanahoria"]);
