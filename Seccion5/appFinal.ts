@@ -30,3 +30,5 @@ function pedir_ayuda2():void{
 let poder2:string = "200";
 let largoDelPoder2:number = poder2.length;
 console.log( largoDelPoder2 );
+
+let prueba:number = undefined;
