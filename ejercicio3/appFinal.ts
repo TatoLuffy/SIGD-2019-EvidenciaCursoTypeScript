@@ -2,7 +2,8 @@ type Coche = {
   carroceria:string,
   modelo:string,
   antibalas:boolean,
-  pasajeros:number
+  pasajeros:number,
+  disparar?:()=>void
 };
 
 // Objetos
@@ -13,8 +14,7 @@ let batimovil:Coche = {
   pasajeros:4
 };
 
-let bumblebee: {carroceria:string,modelo:string,antibalas:boolean,pasajeros:number, disparar?:()=>void} = 
-{
+let bumblebee: Coche = {
   carroceria: "Amarillo con negro",
   modelo: "4x2",
   antibalas: true,
