@@ -3,14 +3,15 @@ function sumar( a:number, b:number ){
   return a + b;
 }
 
-var contar = function( heroes:string[] ){
+let contar = function( heroes:string[] ):number{
   return heroes.length;
 }
-var superHeroes:string[] = ["Flash", "Arrow", "Superman", "Linterna Verde"];
+
+let superHeroes:string[] = ["Flash", "Arrow", "Superman", "Linterna Verde"];
 contar(superHeroes);
 
 //Parametros por defecto
-function llamarBatman( llamar:boolean ){
+function llamarBatman( llamar:boolean = true ): void{
   if( llamar ){
     console.log("Batiseñal activada");
   }
@@ -19,14 +20,16 @@ function llamarBatman( llamar:boolean ){
 llamarBatman(true);
 
 // Rest?
-function unirheroes( ...personas:string[] ){
+function unirheroes( ...personas:string[] ):string{
   return personas.join(", ");
 }
 
 
 // Tipo funcion
-function noHaceNada( numero, texto, booleano, arreglo ){
+function noHaceNada( numero: number, texto:string, booleano:boolean, arreglo:any[] ){
 }
 
 // Crear el tipo de funcion que acepte la funcion "noHaceNada"
-var noHaceNadaTampoco = noHaceNada(10,"Esto es un texto",true,["patatas","zanahoria"]);
+let noHaceNadaTampoco : (n:number, t:string, b:boolean, a:any[])=>void;
+
+noHaceNadaTampoco = noHaceNada;
