@@ -28,5 +28,5 @@ function pedir_ayuda():void{
 
 // Aserciones de Tipo
 let poder1:string = "100";
-let largoDelPoder1:number = poder.length;
+let largoDelPoder1:number = poder2.length;
 console.log( largoDelPoder1 );
