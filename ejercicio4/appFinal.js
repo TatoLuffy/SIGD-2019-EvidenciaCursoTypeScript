@@ -7,32 +7,44 @@
 //  Spiderman info
 // ==============================
 // Constantes?
-var HEROE = "Spiderman";
+const HEROE = "Spiderman";
 
 // Declaracion de variables?
-var spiderman = "Peter Parker",
+let spiderman = "Peter Parker",
     venom = "Eddie Brock";
 
 // Destructuracion de arreglos?
-var versiones = ["Spider-Man 2099","Spider-Girl","Ultimate Spider-Man"];
+let versiones = ["Spider-Man 2099","Spider-Girl","Ultimate Spider-Man"];
 
-var spiderman2099 = versiones[0];
-var spidergirl = versiones[1];
-var ultimate = versiones[2];
+let [spiderman2099,spidergirl,ultimate] = versiones; 
+
+/*
+let spiderman2099 = versiones[0];
+let spidergirl = versiones[1];
+let ultimate = versiones[2];
+*/
 
 // Destructuracion de objetos?
-var villanos = {
+let villanos = {
   venom: "Eddie Brock",
   carnage: "Cletus Kasady",
   sandman: "William Baker"
 };
 
-var venom = villanos.venom;
-var carnage = villanos.carnage;
-var sandman = villanos.sandman;
+/*
+let venom = villanos.venom;
+let carnage = villanos.carnage;
+let sandman = villanos.sandman;
+*/
+
+let { venom,carnage,sandman } = villanos;
 
 // Ciclo for Of?
-for(var i=0; i<= versiones.length - 1; i++){
-  var spider = versiones[i];
+for(let i=0; i<= versiones.length - 1; i++){
+  let spider = versiones[i];
   console.log(spider);
+}
+
+for(let version of versiones){
+  console.log(version);
 }
