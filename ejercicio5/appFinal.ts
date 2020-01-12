@@ -50,7 +50,7 @@ interface Ciudad{
 let ciudad : Ciudad;
 
 ciudad = 
-  function ciudadGotica( ciudadanos:string[] ):number{
+  function ( ciudadanos:string[] ):number{
     return ciudadanos.length;
   };
 

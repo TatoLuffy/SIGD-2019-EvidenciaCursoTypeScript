@@ -24,7 +24,7 @@ function reir(guason) {
 }
 var ciudad;
 ciudad =
-    function ciudadGotica(ciudadanos) {
+    function (ciudadanos) {
         return ciudadanos.length;
     };
 ;
