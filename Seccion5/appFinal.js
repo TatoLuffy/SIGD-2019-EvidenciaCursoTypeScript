@@ -24,3 +24,4 @@ function pedir_ayuda2() {
 var poder2 = "200";
 var largoDelPoder2 = poder2.length;
 console.log(largoDelPoder2);
+//let prueba:number = undefined;

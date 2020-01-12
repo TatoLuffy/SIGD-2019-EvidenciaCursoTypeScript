@@ -1,22 +1,23 @@
+"use strict";
 // Funciones Básicas
-function sumar(a, b) {
+function sumar1(a, b) {
     return a + b;
 }
-var contar = function (heroes) {
+var contar1 = function (heroes) {
     return heroes.length;
 };
-var superHeroes = ["Flash", "Arrow", "Superman", "Linterna Verde"];
-contar(superHeroes);
+var superHeroes1 = ["Flash", "Arrow", "Superman", "Linterna Verde"];
+contar1(superHeroes1);
 //Parametros por defecto
-function llamarBatman(llamar) {
+function llamarBatman1(llamar) {
     if (llamar === void 0) { llamar = true; }
     if (llamar) {
         console.log("Batiseñal activada");
     }
 }
-llamarBatman(true);
+llamarBatman1(true);
 // Rest?
-function unirheroes() {
+function unirheroes1() {
     var personas = [];
     for (var _i = 0; _i < arguments.length; _i++) {
         personas[_i] = arguments[_i];
@@ -24,8 +25,8 @@ function unirheroes() {
     return personas.join(", ");
 }
 // Tipo funcion
-function noHaceNada(numero, texto, booleano, arreglo) {
+function noHaceNada1(numero, texto, booleano, arreglo) {
 }
 // Crear el tipo de funcion que acepte la funcion "noHaceNada"
-var noHaceNadaTampoco;
-noHaceNadaTampoco = noHaceNada;
+var noHaceNadaTampoco1;
+noHaceNadaTampoco1 = noHaceNada1;

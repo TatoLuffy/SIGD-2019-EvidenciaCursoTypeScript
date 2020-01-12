@@ -7,14 +7,14 @@ type Coche = {
 };
 
 // Objetos
-let batimovil:Coche = {
+let batimovil1:Coche = {
   carroceria: "Negra",
   modelo: "6x6",
   antibalas: true,
   pasajeros:4
 };
 
-let bumblebee: Coche = {
+let bumblebee1: Coche = {
   carroceria: "Amarillo con negro",
   modelo: "4x2",
   antibalas: true,
@@ -31,7 +31,7 @@ type Villanos = {
 };
 
 // Villanos debe de ser un arreglo de objetos personalizados
-let villanos:Villanos[] = [{
+let villanos1:Villanos[] = [{
   nombre:"Lex Luthor",
   edad: 54,
   mutante:false
@@ -41,7 +41,7 @@ let villanos:Villanos[] = [{
   mutante: true
 },{
   nombre: "James Logan",
-  edad: undefined,
+  edad: 22,
   mutante: true
 }];
 
@@ -58,18 +58,18 @@ type ApocalipsisType = {
   miembros: string[]
 };
 
-let charles = {
+let charles1 = {
   poder:"psiquico",
   estatura: 1.78
 };
 
-let apocalipsis = {
+let apocalipsis1 = {
   lider:true,
   miembros: ["Magneto","Tormenta","Psylocke","Angel"]
 }
 
 // Mystique, debe poder ser cualquiera de esos dos mutantes (charles o apocalipsis)
-let mystique: CharlesType | ApocalipsisType;
+let mystique1: CharlesType | ApocalipsisType;
 
-mystique = charles;
-mystique = apocalipsis;
+mystique = charles1;
+mystique = apocalipsis1;
