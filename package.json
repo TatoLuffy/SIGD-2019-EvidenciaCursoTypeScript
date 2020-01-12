@@ -1,0 +1,26 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "Este repositorio es la evidencia del seguimiento del siguiente curso de Typescript:",
+  "main": "index.js",
+  "dependencies": {
+    "systemjs": "^0.19.41"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TatoLuffy/SIGD-2019-EvidenciaCursoTypeScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TatoLuffy/SIGD-2019-EvidenciaCursoTypeScript/issues"
+  },
+  "homepage": "https://github.com/TatoLuffy/SIGD-2019-EvidenciaCursoTypeScript#readme"
+}
