@@ -25,7 +25,7 @@ let batimovil2:Auto = {
 
 interface Guason {
   reir:boolean;
-  comer:boolean;
+  comer?:boolean;
   llorar?:boolean;
 }
 
