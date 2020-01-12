@@ -7,7 +7,7 @@ function conducirBatimovil( auto ):void{
   auto.acelear();
 }
 
-let batimovil = {
+let batimovil3 = {
   encender:false,
   velocidadMaxima:0,
   acelear(){
@@ -18,14 +18,14 @@ let batimovil = {
 // Cree una interfaz con que permita utilzar el siguiente objeto
 // utilizando propiedades opcionales
 
-let guason = {
+let guason3 = {
   reir: true,
   comer:true,
   llorar:false
 }
 
-function reir( guason ):void{
-  if( guason.reir ){
+function reir2( guason3 ):void{
+  if( guason3.reir ){
     console.log("JAJAJAJA");
   }
 }
