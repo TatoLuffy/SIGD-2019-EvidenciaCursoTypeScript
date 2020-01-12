@@ -57,6 +57,32 @@ ciudad =
 // Cree una interfaz que obligue crear una clase
 // con las siguientes propiedades y metodos
 
+interface Persona {
+  nombre:string;
+  edad:number;
+  sexo:string;
+  estadoCivil:string;
+  imprimirBio():void;
+};
+
+class Jose implements Persona {
+  nombre:string;
+  edad:number;
+  sexo:string;
+  estadoCivil:string;
+  imprimirBio(){
+    console.log("Imprimiendo los datos de " + this.nombre);
+  }
+
+  constructor(nombre:string, edad:number, sexo:string, estadoCivil:string){
+    this.nombre = nombre;
+    this.edad = edad;
+    this.sexo = sexo;
+    this.estadoCivil = estadoCivil;
+  }
+
+}
+
 /*
   propiedades:
     - nombre
