@@ -19,3 +19,6 @@ Sección 10.
         Requisitos: Instalar SystemJS mediante el comando "npm install sysmtejs@0.19.41"
                 Y ejecutar "npm init" en la carpeta raiz para crear el archivo package.json
 
+Seccion 13. Usando librerias jquery
+    Requisito punto 117. npm install
+    
