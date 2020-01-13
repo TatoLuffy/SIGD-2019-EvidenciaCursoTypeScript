@@ -22,5 +22,4 @@ Sección 10.
 Seccion 13. Usando librerias jquery
     Requisito punto 117. npm install
     Punto 120. Ejecutar el comando: npm install --save-dev @types/jquery
-
-    
+    Punto 122. Ejecutar "npm install sweetalert --save"
